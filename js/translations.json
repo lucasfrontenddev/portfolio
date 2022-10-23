@@ -1,0 +1,140 @@
+{
+    'About me': {
+        es: 'Sobre mi'
+    },
+    "Quality": {
+        es: 'Experiencia'
+    },
+    'Skill': {
+        es: 'Teconologías'
+    },
+    'Service': {
+        es: 'Servicios'
+    },
+    'Portfolio': {
+        es: 'Proyectos'
+    },
+    'Review': {
+        es: ''
+    },
+    'Web Developer, Web Designer, Apps Developer, Video Editor': {
+        es: 'Desarrollador Web, Diseñador Web, Desarrollador de Apps, Editor de videos'
+    },
+    
+    "I'm": {
+        es: "Soy"
+    },
+
+    'Download CV': {
+        es: 'Descargar CV'
+    },
+    'Spanish': {
+        es: 'Español'
+    },
+    'English': {
+        es: 'Inglés'
+    },
+
+
+    'About Me': {
+        es: 'Sobre mí'
+    },
+    'About': {
+        es: ''
+    },
+    'Web Developer - Video Editor': {
+        es: 'Sobre mí'
+    },
+    '': {
+        es: ''
+    },
+    'Name: <span class="text-secondary">Lucas Sebastián Martinez</span>': {
+        es: 'Nombre: <span class="text-secondary">Lucas Sebastián Martinez</span>'
+    },
+    'Birthday: <span class="text-secondary">9 July 1986</span>': {
+        es: 'Fecha de nacimiento <span class="text-secondary">9 de Julio de 1986</span>'
+    },
+    'Degree:': {
+        es: ''
+    },
+    'Experience: <span class="text-secondary trn">3 Years</span>': {
+        es: 'Experiencia: <span class="text-secondary trn">3 Años</span>'
+    },
+    'Phone: <span class="text-secondary trn">+054 11 2386 8020</span>': {
+        es: 'Teléfono: <span class="text-secondary trn">+054 11 2386 8020</span>'
+    },
+    'Email:': {
+        es: ''
+    },
+    'Address: <span class="text-secondary">Recoleta, BsAs. ARG</span>': {
+        es: 'Dirección: <span class="text-secondary">Recoleta, BsAs. ARG</span>'
+    },
+    'Freelance: <span class="text-secondary">Available</span>': {
+        es: 'Freelance: <span class="text-secondary">Disponible</span>'
+    },
+    /* EDUCACION Y EXPERIENCIA */
+    '': {
+        es: ''
+    },
+    'Education & Expericence': {
+        es: 'Educación y experiencia'
+    },
+    'My Education': {
+        es: 'Educación'
+    },
+    'Fullstack Developer': {
+        es: 'Desarrollador Fullstack'
+    },
+    '': {
+        es: ''
+    },
+    'Frontend Developer': {
+        es: 'Desarrollador Frontend'
+    },
+    '': {
+        es: ''
+    },
+    'My Expericence': {
+        es: 'Experiencia'
+    },
+    'Web Designer': {
+        es: 'Desarrollador Web'
+    },
+    '': {
+        es: ''
+    },
+    /* MIS HABILIDADES */
+    'My Skills': {
+        es: 'Habilidades'
+    },
+    /* SERVICIOS */
+    'My Services': {
+        es: 'Servicios'
+    },
+    '': {
+        es: ''
+    },
+    '': {
+        es: ''
+    },
+    '': {
+        es: ''
+    },
+    /* GALERIA */
+    'My Portfolio': {
+        es: 'Galería'
+    },
+    '': {
+        es: ''
+    },
+    '': {
+        es: ''
+    },
+    '': {
+        es: ''
+    },
+    '': {
+        es: ''
+    }
+
+}

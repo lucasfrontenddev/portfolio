@@ -38,36 +38,18 @@
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link trn">About me</a>
+                <a href="#about" class="nav-item nav-link trn" id="about-a">About me</a>
                 <a href="#qualification" class="nav-item nav-link trn">Quality</a>
                 <a href="#skill" class="nav-item nav-link trn">Skill</a>
                 <a href="#service" class="nav-item nav-link trn">Service</a>
                 <a href="#portfolio" class="nav-item nav-link trn">Portfolio</a>
-                <a href="#blog" class="nav-item nav-link trn">Blog</a>
-                <a href="#videos" class="nav-item nav-link trn">videos</a>
+                <a href="#videos-gallery" class="nav-item nav-link trn">videos</a>
                 <a href="#contact" class="nav-item nav-link trn">Contact</a>
             </div>
             <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
         </div>
     </header>
     <!-- Navbar End -->
-
-    <!-- Video Modal  
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     Video Modal End -->
 
     <main>
         <!-- Header Start -->
@@ -103,12 +85,12 @@
                                 </div>
                             -->
           
-                                <a href="http://127.0.0.1:5500/" class="cepi-url panel panel-default" rel="noopener noreferrer">
-                                    <h4 class="trn">English</h4>
+                                <a href="http://127.0.0.1:5500/" class="eng-url panel panel-default" rel="noopener noreferrer">
+                                    <h4 class="trn" id="english">English</h4>
                                 </a>
                                 
                                 <a href="http://127.0.0.1:5500/?lang=es" class=" panel panel-default ml-4">
-                                    <h4 class="trn">Spanish</h4>
+                                    <h4 class="trn" id="spanish">Spanish</h4>
                                 </a>
                                 
                                 
@@ -150,27 +132,26 @@
     
         <!-- About Start -->
         <div class="container-fluid py-5" id="about">
-            <div class="container">
+            <div class="container" id="me">
                 <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="about text-uppercase">About</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+                    <h1 class="about text-uppercase trn">About</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">About Me</h1>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-5 pb-4 pb-lg-0">
                         <img class="img-fluid rounded w-100" src="img/me.jpg" alt="">
                     </div>
                     <div class="col-lg-7">
-                        <h3 class="mb-4">Web Developer & Video Editor</h3>
-                        <p>I design & build digital products and user interfaces, I code beautifully simple things, and I love what I do.</p>
+                        <h3 class="mb-4 trn">Web Developer - Video Editor</h3>
+                        <p class="trn">I design & build digital products and user interfaces, I code beautifully simple things, and I love what I do.</p>
+                        <hr>
                         <div class="row mb-3">
-                            <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Lucas Sebastián Martinez</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">9 July 1986</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">3 Years</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+054 11 2386 8020</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6 class="trn">Name: <span class="text-secondary">Lucas Sebastián Martinez</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6 class="trn">Birthday: <span class="text-secondary">9 July 1986</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6 class="trn">Phone: <span class="text-secondary trn">+054 11 2386 8020</span></h6></div>
                             <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">lucasfrontenddev@gmail.com</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Recoleta, BsAs. ARG</span></h6></div>
-                            <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6 class="trn">Address: <span class="text-secondary">Recoleta, BsAs. ARG</span></h6></div>
+                            <div class="col-sm-6 py-2"><h6 class="trn">Freelance: <span class="text-secondary">Available</span></h6></div>
                         </div>
                         <a href="https://whyme-ten.vercel.app/" class="btn btn-outline-primary" target="_blank">Learn More</a>
                     </div>
@@ -184,41 +165,41 @@
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="qualification text-uppercase text-white">Quality</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">Education & Expericence</h1>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <h3 class="mb-4">My Education</h3>
+                        <h3 class="mb-4 trn">My Education</h3>
                         <div class="border-left border-primary pt-2 pl-4 ml-2">
                             <div class="position-relative mb-4">
                                 <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                                <h5 class="font-weight-bold mb-1">Fullstrack Developer</h5>
+                                <h5 class="font-weight-bold mb-1 trn">Fullstack Developer</h5>
                                 <p class="mb-2"><a href="https://www.coderhouse.com/" target="_blank"><strong>CoderHouse</strong></a> | <small>2022 - present</small></p>
-                                <p>Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.</p>
+                                <p class="trn">Development of complex, dynamic and scalable sites with html, css, sass, js and the React framework. Modern applications with Node.js and MongoDB. Server-side JavaScript development. and SQL and NoSQL databases.</p>
                             </div>
                             <div class="position-relative mb-4">
                                 <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                                <h5 class="font-weight-bold mb-1">Frontend Developer</h5>
+                                <h5 class="font-weight-bold mb-1 trn">Frontend Developer</h5>
                                 <p class="mb-2"><a href="https://courseit.io/" target="_blank"><strong>Course IT</strong></a> | <small>2020</small></p>
-                                <p>Creation of websites with html, css, JS and React. Use of git and github.</p>
+                                <p class="trn">Creation of websites with html, css, JS and React. Use of git and github.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h3 class="mb-4">My Expericence</h3>
+                        <h3 class="mb-4 trn">My Expericence</h3>
                         <div class="border-left border-primary pt-2 pl-4 ml-2">
                             <div class="position-relative mb-4">
                                 <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                                <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                                <h5 class="font-weight-bold mb-1 trn">Web Designer</h5>
                                 <p class="mb-2"><a href="https://www.argentina.gob.ar/jst" target="_blank"><strong>Junta de Seguridad en el Transporte</strong></a> | <small>2020 - now</small></p>
-                                <p>I develop the internal file management system, layout of replicas of the official government platform. Website maintenance. Etc</p>
+                                <p class="trn">I develop the internal file management system, layout of replicas of the official government platform. Website maintenance. Etc</p>
                             </div>
                             <div class="position-relative mb-4">
                                 <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                                <h5 class="font-weight-bold mb-1">Web Designer & Video Editor</h5>
+                                <h5 class="font-weight-bold mb-1 trn">Web Designer & Video Editor</h5>
                                 <p class="mb-2"><a href="https://paracaidismochascomus.com/" target="_blank"><strong>Skydive Chascomús</strong></a> | <small>2020 - Now</small></p>
                                 </a>
-                                <p>In addition to working packing parachutes (I'm a skydiver, <a href="#">Click here</a>) I developed a real-time flight visualization system. I also edit ads for social media.</p>
+                                <p class="trn">In addition to working packing parachutes (I'm a skydiver, <a href="#">Click here</a>) I developed a real-time flight visualization system. I also edit ads for social media.</p>
                             </div>
                         </div>
                     </div>
@@ -231,8 +212,8 @@
         <div class="container-fluid pt-4" id="skill">
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="skill text-uppercase text-white">Skills</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+                    <h1 class="skill text-uppercase text-white trn">Skills</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">My Skills</h1>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-6">
@@ -268,10 +249,10 @@
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
                                 <i class="fab fa-css3-alt mr-2 icons-size"></i>
-                                <h6 class="font-weight-bold">85%</h6>
+                                <h6 class="font-weight-bold">95%</h6>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar css" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar css" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="skill mb-4">
@@ -300,7 +281,15 @@
 
                 <hr>
 
-                <i class="fas fa-play-circle"></i>
+                <div class="d-flex justify-content-center">
+
+                    <button type="button" class="btn-play" data-toggle="modal"
+                    data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                    <span></span>
+                    </button>
+                </div>
+                <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="skill mb-4">
@@ -334,13 +323,13 @@
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="service text-uppercase text-white">Service</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">My Services</h1>
                 </div>
                 <div class="row pb-3">
                     <div class="col-lg-4 col-md-6 text-center mb-5">
                         <div class="d-flex align-items-center justify-content-center mb-4">
                             <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Web Design</h4>
+                            <h4 class="font-weight-bold m-0 trn">Web Design</h4>
                         </div>
                         <p>Website wireframe. Design planning and user interface.</p>
                         <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
@@ -348,7 +337,7 @@
                     <div class="col-lg-4 col-md-6 text-center mb-5">
                         <div class="d-flex align-items-center justify-content-center mb-4">
                             <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Web Development</h4>
+                            <h4 class="font-weight-bold m-0 trn">Web Development</h4>
                         </div>
                         <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
                         <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
@@ -364,7 +353,7 @@
                     <div class="col-lg-4 col-md-6 text-center mb-5">
                         <div class="d-flex align-items-center justify-content-center mb-4">
                             <i class="fa-2x fas fa-globe service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Translations</h4>
+                            <h4 class="font-weight-bold m-0 trn">Translations</h4>
                         </div>
                         <p>I love making sites in many languages.</p>
                         <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
@@ -372,7 +361,7 @@
                     <div class="col-lg-4 col-md-6 text-center mb-5">
                         <div class="d-flex align-items-center justify-content-center mb-4">
                             <i class="fa-2x fas fa-photo-video service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Content Creating</h4>
+                            <h4 class="font-weight-bold m-0 trn">Content Creating</h4>
                         </div>
                         <p>Make your website fun and fresh with audiovisual content. I enjoy making amazing content for websites and social media</p>
                         <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
@@ -474,18 +463,18 @@
          Portfolio End -->
 
         <!-- Blog Portfolio -->
-        <div class="container-fluid pt-5" id="blog">
+        <div class="container-fluid pt-5" id="portfolio">
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="portfolio text-uppercase text-white">Gallery</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">My Portfolio</h1>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 mb-5">
                         <div class="position-relative mb-4">
                             <img class="img-fluid rounded w-100" src="./img/packer.png" alt="">
                         </div>
-                        <h5 class="font-weight-medium mb-4">Looking for job. I am a Packer and rigger</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Skydiving. I am a Packer, I am rigger</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="">Go</a>
                     </div>
                     <div class="col-lg-4 mb-5">
@@ -494,14 +483,14 @@
                                 <img class="img-fluid rounded w-100" src="./img/jst.png" alt="">
                             </div>
                         </a>
-                        <h5 class="font-weight-medium mb-4">Government page replica in english and portuguese</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Government page replica in english and portuguese</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="https://so.jst.gob.ar/idiomasJST/">Go</a>
                     </div>
                     <div class="col-lg-4 mb-5">
                         <div class="position-relative mb-4">
                             <img class="img-fluid rounded w-100" src="./img/seguros.png" alt="">
                         </div>
-                        <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="">Go</a>
                     </div>
                 </div>
@@ -512,7 +501,7 @@
                                 <img class="img-fluid rounded w-100" src="./img/cryptos.png" alt="">
                             </div>
                         </a>
-                        <h5 class="font-weight-medium mb-4">Crypto converter - React</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Crypto converter - React</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="https://crypyomonedas.vercel.app/">Go</a>
                     </div>
                     <div class="col-lg-4 mb-5">
@@ -521,7 +510,7 @@
                                 <img class="img-fluid rounded w-100" src="./img/tasks.png" alt="">
                             </div>
                         </a>
-                        <h5 class="font-weight-medium mb-4">Task Notepad - React</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Task Notepad - React</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="https://administrador-de-tareas.vercel.app/">Go</a>
                     </div>
                     <div class="col-lg-4 mb-5">
@@ -530,7 +519,7 @@
                                 <img class="img-fluid rounded w-100" src="./img/seguros.png" alt="">
                             </div>
                         </a>
-                        <h5 class="font-weight-medium mb-4">Car insurance quotes - React</h5>
+                        <h5 class="font-weight-medium mb-4 trn">Car insurance quotes - React</h5>
                         <a class="btn btn-sm btn-outline-primary py-2" href="https://car-insurance-orcin.vercel.app/">Go</a>
                     </div>
                 </div>
@@ -583,166 +572,12 @@
             </div>
         </div>
 
-        Videos End -->
-
-        <!-- Videos Start -->
-        <div class="container-fluid py-5" id="videos-gallery" >
-            <div class="container">
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="videos-gallery text-uppercase text-white">Videos</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">Vide<i class="fab fa-instagram insta"></i>s</h1>
-                </div>
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <div id="slider" class="slider row justify-content-center">
-                        <div class="wrapper">
-                            <div id="items" class="items">
-                                <span class="slide">
-                                    <a href="https://www.youtube.com/shorts/cGhI9re2VYo" target="_blank">
-                                        <div class="content">
-                                            <div class="top-icons">
-                                                <div class="mt-4 d-flex justify-content-between" style="max-width: 350px;">
-                                                    <div class="configuration"></div>
-                                                    <div class="flash"></div>
-                                                    <div class="close"></div>
-                                                </div>
-                                            </div>
-                                            <div class="lef-icons  align-items-center">
-                                                <div class="text-white text-center mb-2">Aa</div>
-                                                <div class="infinty mb-2"></div>
-                                                <div class="red mb-2"></div>
-                                                <div class="text-center">
-                                                    <i class="fas fa-chevron-down text-white"></i>
-                                                </div>
-                                            </div>
-                                            <div class="video video_1">
-                                            </div>
-                                            <p>SPORTS JUMPS</p>
-                                            <div class="spinner">
-                                                <div class="circle-border">
-                                                    <div class="circle-core"></div>
-                                                </div>  
-                                            </div>
-                                            <button>
-                                            </button>
-                                        </div>
-                                    </a>
-                            </span>
-                            
-                            <span class="slide">
-                                <a href="https://www.youtube.com/shorts/AnHfAJVYfU0" target="_blank">
-                                    <div class="content">
-                                        <div class="top-icons d-flex">
-                                            <div class="circle mt-4 ml-2 d-flex align-items-center justify-content-center color">
-                                                <i class="fas fa-chevron-left text-white"></i>
-                                            </div>
-                                            <div class="top-icons-right d-flex">
-                                                <div class="circle mt-4 d-flex align-items-center justify-content-center">
-                                                    <div class="text-white">Aa</div>
-                                                </div>
-                                                <div class="circle mt-4 ml-2 d-flex align-items-center justify-content-center">
-                                                    <div class="smile"></div>
-                                                </div>
-                                                <div class="circle mt-4 ml-2 d-flex align-items-center justify-content-center text-white">
-                                                    +++
-                                                </div>
-                                                <div class="circle mt-4 ml-2 d-flex align-items-center justify-content-center">
-                                                    <i class="fas fa-ellipsis-h text-white"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="video video_2"></div>
-                                        <p>COURSES</p>
-                                        <div class="bottom-icons">
-                                            <input type="text" class="btn btn-outline-light mr-4 ml-2" placeholder="send mesagge">
-                                            <i class="far fa-heart "></i>
-                                            <div class="send"></div>
-                                        </div>
-                                        <button>
-                                        </button>
-                                    </div>
-                                </a>
-                            </span>
-                            
-                            <span class="slide">
-                                <div class="content">
-                                    <div class="video video_3">
-                                    </div>
-                                    <p>EXPERIENCE</p>
-                                    <div class="bottom-icons">
-                                        <input type="text" class="btn btn-outline-light ml-3" placeholder="send mesagge">
-                                        <div class="red-heart ml-3"></div>
-                                        <div class="send"></div> 
-                                                                          
-                                    </div>
-                                    <button>
-                                    </button>
-                                </div>
-                            </span>
-                            
-                            <span class="slide">
-                                <div class="content">
-                                    <div class="top-icons">
-                                        <div class="mt-4 d-flex justify-content-between" style="max-width: 350px;">
-                                            <div class="configuration"></div>
-                                            <div class="flash"></div>
-                                            <div class="close"></div>
-                                        </div>
-                                    </div>
-                                    <div class="lef-icons  align-items-center">
-                                        <div class="text-white text-center mb-2">Aa</div>
-                                        <div class="infinty mb-2"></div>
-                                        <div class="red mb-2"></div>
-                                        <div class="text-center">
-                                            <i class="fas fa-chevron-down text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div class="video video_4"></div>
-                                    <p>BOOGIES</p>
-                                    <div class="spinner">
-                                        <div class="circle-border">
-                                            <div class="circle-core"></div>
-                                        </div>  
-                                    </div>
-                                    <button>
-                                    </button>
-                                </div>
-                            </span>
-                            
-                            <span class="slide">
-                                <div class="content">
-                                    <a href="https://www.youtube.com/shorts/-3cmrjgYfJM" target="_blank">
-                                        <div class="video video_5">
-                                        </div>
-                                        <p>TANDEMS</p>
-                                        <div class="bottom-icons">
-                                            <input type="text" class="btn btn-outline-light ml-3" placeholder="send mesagge">
-                                            <i class="far fa-heart ml-3"></i>
-                                            <i class="far fa-paper-plane ml-3"></i>                                    
-                                        </div>
-                                        <button>
-                                        </button>
-                                    </a>
-                                </div>
-                            </span>
-                            
-                            </div>
-                            
-                        </div>
-    
-                        <a id="prev" class="control prev"></a>
-                        <a id="next" class="control next"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Videos End -->
-
-        <!-- Contact Start -->
+         Contact Start -->
         <div class="container-fluid py-5" id="contact">
             <div class="container">
                 <div class="position-relative d-flex align-items-center justify-content-center">
                     <h1 class="contact text-uppercase text-white">Contact</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+                    <h1 class="position-absolute text-uppercase text-primary trn">Contact Me</h1>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -762,19 +597,18 @@
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    <input type="text" class="form-control p-4 trn" id="subject" placeholder="Subject"
                                         required="required" data-validation-required-message="Please enter a subject" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    <textarea class="form-control py-3 px-4 trn" rows="5" id="message" placeholder="Message"
                                         required="required"
                                         data-validation-required-message="Please enter your message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div>
-                                    <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                        Message</button>
+                                    <button class="btn btn-outline-primary trn" type="submit" id="sendMessageButton">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -790,23 +624,23 @@
     <footer class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/lucasfrontend"><i class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/lucas-sebastian-martinez-7b72b21b3/"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.youtube.com/channel/UCVSKdcPeS25va29zy3HbwgQ"><i class="fab fa-youtube "></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/suplicante.dealamito/"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.instagram.com/barrilete_feliz/"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-light btn-social" href="https://twitter.com/Arduinode1"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/lucasfrontend" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/lucas-sebastian-martinez-7b72b21b3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.youtube.com/channel/UCVSKdcPeS25va29zy3HbwgQ" target="_blank"><i class="fab fa-youtube "></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/suplicante.dealamito/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.instagram.com/barrilete_feliz/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social" href="https://twitter.com/Arduinode1" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
+                <a class="text-white trn" href="#">Privacy</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
+                <a class="text-white trn" href="#">Terms</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
+                <a class="text-white trn" href="#">FAQs</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
+                <a class="text-white trn" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">LucasMarDev</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">LucasMar</a>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold trn" href="#">LucasMarDev</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold trn" href="#">LucasMar</a>
             </p>
         </div>
     </footer>
@@ -832,7 +666,7 @@
 
     <!-- Translate -->
     <script src="js/jquery.translate.js"></script>
-    <script src="js/json-translate-jst.js"></script>
+    <script src="js/json-translate.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
